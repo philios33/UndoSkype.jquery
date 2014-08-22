@@ -7,7 +7,7 @@ The problem
 -
 The browser plugin called "Skype click to call" will forcefully take control of your websites DOM transforming any text it thinks are telephone numbers in to a blue skype styled link.  It does not matter whether the telephone number is inside of an anchor tag or not.  
 
-1.There is no control over what links gets transformed, and usually the plugin will transform pieces of text which are not telephone numbers such as opening hours or other numbers which are not telephone numbers.
+1. There is no control over what links gets transformed, and usually the plugin will transform pieces of text which are not telephone numbers such as opening hours or other numbers which are not telephone numbers.
 2. The blue skype image style that it adds may not look very nice on your website, push text out so it wraps or just not go with the colour scheme of the page.
 
 Related problems
