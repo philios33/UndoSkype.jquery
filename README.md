@@ -12,12 +12,20 @@ The browser plugin called "Skype click to call" will forcefully take control of 
 
 Related problems
 -
-1. Historically, when installing Skype, the browser plugin has been forcefully installed with the application without permission, or subtley included as an opt-out (checked by default) checkbox.  It is only recently in the latest versions of skype that the browser plugins have been offerred as an opt-in (unchecked) checkbox.  Because of this, and due to user ignorance, many browsers are running this plugin without the knowledge of the user.  
+1. Historically, when installing Skype, the browser plugin has been forcefully installed with the application without permission, or subtly included as an opt-out (checked by default) checkbox.  It is only recently in the latest versions of skype that the browser plugins have been offerred as an opt-in (unchecked) checkbox.  It is also only recently that Chrome and Firefox have added a security system which asks you to accept browser addons. Because of this, and due to user ignorance, many browsers are running this plugin without the knowledge of the user.  
 2. Also, due to user ignorance, many people will complain to the webmasters wondering why phone numbers look freaky on their website.  
 3. The browser plugin code in the latest skype version is extremely intrusive.  They have really spent the time and effort to circumvent "fixes" such as ignoring the header which should turn off the functionality, using random css classes to override fixes and eventually forcing inline css styling.  There are many "fixes" to this problem out there which simply do not work anymore with the current version of the plugins.  
 
 What it does
 -
-This plugin will alter your webpages DOM and remove any skype anchors it finds by replacing every character of the content with span tags containing single characters.  Since the span tag is an inline tag and assuming you dont have a non standard css styling for it, it should display in the same way as a normal piece of text.
+This plugin will alter your webpages DOM and remove any skype anchors it finds by replacing every character of the content with span tags containing single characters.  Since the span tag is an inline tag and assuming you dont have a non standard css styling for it, it should display in the same way as a normal piece of text.  
+
+Testing
+-
+This is the only solution that I have found to work on the latest versions of click to call so I am publishing it here.  Tested on IE11, Firefox & Chrome.  I am not sure if it will work on previous versions of click 2 call as I dont know of any way to test this.
+
+Feedback
+-
+I welcome any comments to phil@code67.com, feel free to send me pull requests or let me know whether this works for you.
 
 
